@@ -1,3 +1,3 @@
 # MsgPack Editor
 
-Try out the editor [here](file:///Users/benton/DGLogik/MsgpackEdit)
+Try out the editor [here](https://iot-dsa-v2.github.io/msgpack-editor/)
