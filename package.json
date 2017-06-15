@@ -1,0 +1,29 @@
+{
+  "name": "MsgpackEdit",
+  "version": "0.1.0",
+  "main": "main.js",
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "electron": "^1.6.11",
+    "electron-reload": "^1.2.1",
+    "react-scripts": "1.0.7"
+  },
+  "dependencies": {
+    "msgpack-lite": "^0.1.26",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-dropzone": "^3.13.2",
+    "react-fontawesome": "^1.6.1",
+    "react-input-autosize": "^1.1.4"
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "./node_modules/.bin/electron ."
+  }
+}

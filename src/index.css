@@ -1,0 +1,10 @@
+body {
+  font-family: droid sans mono,consolas,monospace,courier new,courier,sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}

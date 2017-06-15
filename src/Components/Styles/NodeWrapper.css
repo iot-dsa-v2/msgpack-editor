@@ -1,0 +1,41 @@
+.MenuButton-menu {
+  background: #fff;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  padding-left: 0;
+  position: absolute;
+  z-index: 99;
+  margin: 2px 0 0 0;
+  width: 100px;
+  max-width: 200px;
+}
+
+.MenuButton-button {
+  border: none;
+  outline: 0;
+}
+
+.MenuButton-menuItem {
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+  -webkit-font-smoothing: antialiased;
+  max-width: 600px;
+  /*margin: 0 auto 200px;*/
+  padding: 10px;
+}
+
+.branchedMenu {
+  margin-top: -35px;
+  left: 100px;
+}
+
+.MenuButton-container {
+  position: absolute;
+  left: 35%;
+  margin-top: 7px;
+}

@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  /*padding-left: 15px;*/
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /*background-color: whitesmoke;*/
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  /*margin-bottom: 5px;*/
+}
+
+.toggleOpen {
+  flex: 0;
+  width: 100;
+  margin-right: 10px;
+}
+
+button, submit {
+  font-family: droid sans mono,consolas,monospace,courier new,courier,sans-serif;
+  border: none;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input {
+  /*display: flex;*/
+  font-size: 16px;
+  border: none;
+  font-family: droid sans mono,consolas,monospace,courier new,courier,sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+}
