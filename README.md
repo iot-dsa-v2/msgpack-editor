@@ -1,3 +1,3 @@
 # MsgPack Editor
 
-simple GUI for editing MsgPack
+Try out the editor [here](file:///Users/benton/DGLogik/MsgpackEdit)

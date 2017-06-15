@@ -132,7 +132,7 @@ class App extends Component {
           {this.genContent(data)}
         </div>
         <div className='fileManagement'>
-          <button onClick={() => this.download('test.msp')}>
+          <button onClick={() => this.download('pack.msp')}>
             <div className="downloadButton">
               <p>Download</p>
             </div>
