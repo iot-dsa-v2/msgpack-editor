@@ -80,8 +80,7 @@ class App extends Component {
     }
 
     if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++)
-        current = current.map(this.parseData)
+       current = current.map(this.parseData)
     } else {
       for (let key of Object.keys(current)) {
         current[key] = this.parseData(current[key])
