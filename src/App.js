@@ -54,7 +54,7 @@ class App extends Component {
   }
 
   genDownload () {
-    const a = document.createElement('a')
+    let a = document.createElement('a')
     document.body.appendChild(a)
     a.style = 'display:none'
     return (name) => {
