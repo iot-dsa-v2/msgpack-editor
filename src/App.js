@@ -97,7 +97,6 @@ class App extends Component {
     const reader = new FileReader()
     reader.addEventListener('loadend', () => {
       const data = msgpack.decode(new Uint8Array(reader.result))
-      this.content = this.genContent(data)
       this.setState({ data: undefined }, () => this.setState({ data }))
     })
     reader.readAsArrayBuffer(file)
