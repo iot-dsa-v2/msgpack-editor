@@ -111,10 +111,8 @@ class App extends Component {
           {this.genContent(data)}
         </div>
         <div className='fileManagement'>
-          <button onClick={() => this.download('pack.msp')}>
-            <div className="downloadButton">
+          <button className="downloadButton" onClick={() => this.download('pack.msp')}>
               <p>Download</p>
-            </div>
           </button>
           <Dropzone onDrop={this.onDrop.bind(this)} className='dropzone' accept='.mp, .msp, .mpac'>
               <p>Try dropping some files here, or click to select files to upload.</p>
