@@ -6,25 +6,6 @@ import ObjectNode from './Components/ObjectNode'
 import ArrayNode from './Components/ArrayNode'
 import NodeWrapper from './Components/NodeWrapper'
 import './App.css'
-
-// let test = {
-//   one: [
-//     [
-//       "test array",
-//       "element two",
-//       [
-//         "third test"
-//       ]
-//     ],
-//     "test string",
-//     "a string",
-//     {
-//       test: "test object",
-//       object: "another test"
-//     },
-//     5
-//   ]
-// }
  
 class App extends Component {
   constructor (props) {
