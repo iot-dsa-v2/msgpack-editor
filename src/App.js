@@ -56,7 +56,7 @@ class App extends Component {
   genDownload () {
     let a = document.createElement('a')
     document.body.appendChild(a)
-    a.style = 'display:none'
+    // a.style = 'display:none'
     return (name) => {
       const { data } = this.state
       const parsed = this.parseData(data)
