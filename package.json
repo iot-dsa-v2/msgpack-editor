@@ -13,6 +13,7 @@
     "msgpack-lite": "^0.1.26",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
+    "react-aria-menubutton": "^6.1.0",
     "react-dom": "^15.5.4",
     "react-dropzone": "^3.13.2",
     "react-fontawesome": "^1.6.1",
